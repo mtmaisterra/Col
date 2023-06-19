@@ -1,17 +1,149 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 1 | @import "variables.scss";
- *   |         ^^^^^^^^^^^^^^^^
- *   '
- *   estilos\scss\style.scss 1:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import \"variables.scss\";\d\a   \2502          ^^^^^^^^^^^^^^^^\a   \2575 \a   estilos\\scss\\style.scss 1:9  root stylesheet";
+@keyframes efecto1 {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
 }
+@keyframes efecto2 {
+  0% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 4px;
+  }
+  30% {
+    opacity: 14px;
+  }
+  45% {
+    opacity: 15px;
+  }
+  60% {
+    opacity: 20px;
+  }
+  75% {
+    opacity: 14px;
+  }
+  90% {
+    opacity: 4px;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.bodyIndex {
+  background: blanchedalmond;
+}
+.bodyIndex .barranav1 {
+  background-color: black;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.bodyIndex .barranav1 .imagen1 {
+  margin-top: 5px;
+  padding: 0;
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 98%;
+  height: 150px;
+}
+.bodyIndex .barranav1 .enlace1 {
+  text-decoration: none;
+}
+.bodyIndex .barranav1 .link1 {
+  background-color: rgb(255, 192, 203);
+  margin-right: 25px;
+  margin-left: 25px;
+  font-size: 35px;
+  font-family: "Roboto";
+}
+.bodyIndex .barranav1 .link1:hover {
+  font-family: "Sacramento";
+  font-style: bold;
+}
+.bodyIndex .barranav1 .link2 {
+  background-color: green;
+  margin-right: 25px;
+  margin-left: 25px;
+  font-size: 35px;
+  font-family: "Roboto";
+}
+.bodyIndex .barranav1 .link2:hover {
+  font-family: "Sacramento";
+  font-style: bold;
+}
+.bodyIndex .barranav1 .link3 {
+  background-color: royalblue;
+  margin-right: 25px;
+  margin-left: 25px;
+  font-size: 35px;
+  font-family: "Roboto";
+}
+.bodyIndex .barranav1 .link3:hover {
+  font-family: "Sacramento";
+  font-style: bold;
+}
+.bodyIndex .barranav1 .link4 {
+  background-color: purple;
+  margin-right: 25px;
+  margin-left: 25px;
+  font-size: 35px;
+  font-family: "Roboto";
+}
+.bodyIndex .barranav1 .link4:hover {
+  font-family: "Sacramento";
+  font-style: bold;
+}
+.bodyIndex .barranav1 .link5 {
+  background-color: orange;
+  margin-right: 25px;
+  margin-left: 25px;
+  font-size: 35px;
+  font-family: "Roboto";
+}
+.bodyIndex .barranav1 .link5:hover {
+  font-family: "Sacramento";
+  font-style: bold;
+}
+.bodyIndex .barranav1 .link6 {
+  background-color: yellow;
+  margin-right: 25px;
+  margin-left: 25px;
+  font-size: 35px;
+  font-family: "Roboto";
+}
+.bodyIndex .barranav1 .link6:hover {
+  font-family: "Sacramento";
+  font-style: bold;
+}
+.bodyIndex .menu1 {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.bodyIndex .enlace2 {
+  margin: 100px 35px 0 0;
+  border-color: black;
+  border-bottom: 50px;
+  width: 500px;
+  height: 250px;
+  font-size: 40px;
+  color: black;
+  font-family: "Pacifico";
+  animation-name: efecto1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  display: flexbox;
+  text-decoration: none;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,8 +1,137 @@
-@import "variables.scss";
-@import "mixin.scss";
+@import "mixin";
+@import "variables";
 
-.bodyIndex{
-background: $color4;
+@keyframes efecto1 {
+    0% {
+
+        background-color: $color1;
+    }
+
+    50% {
+        background-color: $color2;
+    }
+
+    100% {
+        background-color: $color13;
+    }
 
 }
 
+@keyframes efecto2 {
+    0% {
+        opacity: $Size7;
+    }
+
+    15% {
+        opacity: $Size28;
+    }
+
+    30% {
+        opacity: $Size8;
+    }
+
+    45% {
+        opacity: $Size1;
+    }
+
+    60% {
+        opacity: $Size6;
+    }
+
+    75% {
+        opacity: $Size8;
+    }
+
+    90% {
+        opacity: $Size28;
+    }
+
+    100% {
+        opacity: $Size7;
+    }
+}
+
+.bodyIndex {
+    background: $color4;
+
+    .barranav1 {
+        @include barranav1(black);
+
+
+        .imagen1 {
+            @include imagen1(5px);
+        }
+
+.enlace1{    
+      text-decoration: $Dec4;
+}
+
+        .link1 {
+            @include link1(rgb(255, 192, 203));
+          
+            &:hover {
+                @include hoverlinks("Sacramento");
+            }
+        }
+
+        .link2 {
+            @include link2(green);
+       
+            &:hover {
+                @include hoverlinks("Sacramento");
+            }
+        }
+
+        .link3 {
+            @include link3(royalblue);
+           
+            &:hover {
+                @include hoverlinks("Sacramento");
+            }
+        }
+
+        .link4 {
+            @include link4(purple);
+   
+            &:hover {
+                @include hoverlinks("Sacramento");
+            }
+        }
+
+        .link5 {
+            @include link5(orange);
+         
+            &:hover {
+                @include hoverlinks("Sacramento");
+            }
+        }
+
+        .link6 {
+            @include link6(yellow);
+            
+            &:hover {
+                @include hoverlinks("Sacramento");
+            }
+        }
+
+    }
+.menu1{
+   @include menu1(center);
+}
+
+    .enlace2 {  
+        @include boton1(100px);
+        display: flexbox;
+        text-decoration: $Dec4;
+text-align: $Alig1;
+
+        .boton1 {
+            
+          
+
+        
+        }
+
+    }
+
+}

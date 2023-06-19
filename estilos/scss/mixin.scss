@@ -1,0 +1,108 @@
+@mixin barranav1($color3) {
+    background-color: $color3;
+    text-align: $Alig1;
+    width: $Size15;
+    padding: $Size7;
+    margin-top: $Size7;
+    margin-left: $Size7;
+    margin-right: $Size7;
+}
+
+@mixin link1($color8) {
+    background-color: $color8;
+    margin-right: $Size21;
+    margin-left: $Size21;
+    font-size: $Size3;
+    font-family: $font3;
+}
+
+@mixin link1($color16) {
+    background-color: $color16;
+
+    margin-right: $Size21;
+    margin-left: $Size21;
+    font-size: $Size3;
+    font-family: $font3;
+}
+
+@mixin link2($color13) {
+    background-color: $color13;
+    margin-right: $Size21;
+    margin-left: $Size21;
+    font-size: $Size3;
+    font-family: $font3;
+}
+
+@mixin link3($color21) {
+    background-color: $color21;
+    margin-right: $Size21;
+    margin-left: $Size21;
+    font-size: $Size3;
+    font-family: $font3;
+}
+
+@mixin link4($color20) {
+    background-color: $color20;
+    margin-right: $Size21;
+    margin-left: $Size21;
+    font-size: $Size3;
+    font-family: $font3;
+}
+
+@mixin link5($color14) {
+    background-color: $color14;
+    margin-right: $Size21;
+    margin-left: $Size21;
+    font-size: $Size3;
+    font-family: $font3;
+}
+
+@mixin link6($color15) {
+    background-color: $color15;
+    margin-right: $Size21;
+    margin-left: $Size21;
+    font-size: $Size3;
+    font-family: $font3;
+}
+
+
+@mixin imagen1($Size5) {
+    margin-top: $Size5;
+    padding: $Size7;
+    margin-right: $Size2;
+    margin-left: $Size2;
+    width: $Size37;
+    height: $Size26;
+}
+
+@mixin hoverlinks($font5) {
+    font-family: $font5;
+    font-style: $Dec2;
+
+}
+
+@mixin menu1($Alig1){
+    margin-top: $Size7;
+    margin-left: $Size7;
+    margin-right: $Size7;
+}
+@mixin enlace2($color3) {
+    border: $color3 $Size2;
+    display: flexbox;
+
+}
+
+@mixin boton1($Size19) {
+    margin: $Size19 $Size3 $Size7 $Size7;
+    border-color: $color3;
+    border-bottom: $Size20;
+    width: $Size38;
+    height: $Size25;
+    font-size: $Size18;
+    color: $color3;
+    font-family: $font2;
+    
+    animation-name: efecto1;
+    animation-duration: $duracion1;
+    animation-iteration-count: $count1;
+}
